@@ -26,3 +26,34 @@ A full-stack personal finance web app to track salary, expenses, savings goals, 
 ---
 
 ## Architecture
+finance-tracker/
+├── backend/ Node.js + Express REST API
+│ ├── models/ Mongoose models (User, Expense, Goal)
+│ ├── routes/ Auth, expenses, goals, summary
+│ └── middleware/ JWT authentication
+└── frontend/ Angular 17
+└── src/app/
+├── core/ Services, guards, interceptors
+├── shared/ Models, interfaces
+└── features/ Dashboard, Expenses, Goals, Auth
+
+---
+
+## API
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /api/auth/register | Register |
+| POST | /api/auth/login | Login |
+| GET | /api/expenses | Get expenses |
+| POST | /api/expenses | Add expense |
+| GET | /api/goals | Get goals |
+| GET | /api/summary/trend | 6-month trend |
+
+---
+
+## Deployment
+
+- Frontend: Vercel
+- Backend: Render
+- Database: MongoDB Atlas
