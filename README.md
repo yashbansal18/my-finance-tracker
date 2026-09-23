@@ -39,11 +39,6 @@ finance-tracker/
 6. Get connection string: Clusters → Connect → Connect your application → Copy URI
    - It looks like: `mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/`
 
-
-theyashbansal_db_user
-fbu8qzBxWvPmYuBH
-
-mongodb+srv://theyashbansal_db_user:<db_password>@cluster0.amlsjn8.mongodb.net/?appName=Cluster0
 ---
 
 ## Step 2 — Backend Setup
